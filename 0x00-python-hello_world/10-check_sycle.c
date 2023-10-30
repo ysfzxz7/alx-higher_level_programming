@@ -2,9 +2,9 @@
 #include <stdlib.h>
 
 /**
- * check_cycle - function that checks if a singly linked list has a cycle in it
- * @list: pointer to the head of the linked list.
- * Return: 0 if no cycle, 1 otherwise.
+ * check_cycle - func that check if a linked list is a cycle or note
+ * @list: ptr to the head of the linked list
+ * Return: 0 is cycle otherwise note
  */
 int check_cycle(listint_t *list)
 {
