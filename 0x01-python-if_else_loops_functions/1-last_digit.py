@@ -15,4 +15,4 @@ elif last == 0:
     string == "and is 0"
 else:
     string = "and is less than 6 and not 0"
-print(f"LAst digit of {number:d} is {last:d} {string}")
+print(f"Last digit of {number:d} is {last:d} {string}")
