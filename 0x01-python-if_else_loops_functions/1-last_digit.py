@@ -10,7 +10,7 @@ if number < 0:
 
 string = ""
 if last > 5:
-    string = "and is not greater than 5"
+    string = "and is greater than 5"
 elif last == 0:
     string == "and is 0"
 else:
