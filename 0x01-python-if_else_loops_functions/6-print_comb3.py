@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 
-for left in range(10):
-    for right in range(10):
-        if left < right:
-            print("{}{}".format(left, right), end="")
-            print("{}".format("\n" if left == 8 and right == 9 else ", "), end="")
+for x in range(10):
+    for i in range(10):
+        if x < i:
+            print("{}{}".format(x, i), end="")
+            print("{}".format("\n" if x == 8 and i == 9 else ", "), end="")
