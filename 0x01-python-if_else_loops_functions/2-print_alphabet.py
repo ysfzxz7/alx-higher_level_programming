@@ -1,8 +1,6 @@
 #!/usr/bin/python3
 
-a = ord('a')
-z = ord('z')
-
-for i in range(a, z + 1):
-    letter = chr(i)
-    print(letter, end='')
+string = ""
+for i in range(97, 123)
+    string = string + chr(i)
+print("{}".format(string), end='')
