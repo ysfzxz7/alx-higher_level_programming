@@ -9,4 +9,3 @@ for i in range(1,101):
             print("Buzz ", end="")
     else:
         print("{} ".format(i), end="")
-print()
