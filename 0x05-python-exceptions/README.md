@@ -70,7 +70,6 @@ Write a function that divides element by element 2 lists.
     You are not allowed to import any module
 
 # 5. Raise exception
-mandatory
 
 Write a function that raises a type exception.
 
