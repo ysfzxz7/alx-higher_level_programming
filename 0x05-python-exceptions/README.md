@@ -97,3 +97,20 @@ Write a function that prints an integer.
     You have to use try: / except:
     You have to use "{:d}".format() to print as integer
     You are not allowed to use type()
+
+# 8. Safe function
+#advanced
+
+Write a function that executes a function safely.
+
+    Prototype: def safe_function(fct, *args):
+    You can assume fct will be always a pointer to a function
+    Returns the result of the function,
+    Otherwise, returns None if something happens during the function and prints in stderr the error precede by Exception:
+    You have to use try: / except:
+
+
+# 9. ByteCode -> Python #4
+#advanced
+
+Write the Python function def magic_calculation(a, b): that does exactly the same as the following Python bytecode:
