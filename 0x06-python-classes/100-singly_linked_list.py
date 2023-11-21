@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 """Define the Node Class ."""
 
-
+"""def of class SinglyLinkedList"""
 class Node:
     def __init__(self, data, next_node=None):
         """
