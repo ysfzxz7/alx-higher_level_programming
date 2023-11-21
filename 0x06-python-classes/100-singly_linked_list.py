@@ -24,7 +24,7 @@ class Node:
     def data(self, value):
         """this methode serve a setter"""
         if (not isinstance(value, int)):
-            raise TypeError("data must be integer")
+            raise TypeError("data must be an integer")
         self.__data = value
 
     @property
