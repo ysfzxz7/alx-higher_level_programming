@@ -9,8 +9,8 @@ class Node:
         data: the data stored
         next_node: ptr to the next node
         """
-        self.data = data
-        self.next_node = next_node
+        self.__data = data
+        self.__next_node = next_node
 
     @property
     def data(self):
