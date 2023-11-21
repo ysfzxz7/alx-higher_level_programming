@@ -34,7 +34,7 @@ class Square:
     def my_print(self):
         """This func is used to print the a Square in Hashtag"""
         if self.__size == 0:
-            print("\n")
+            print()
         for i in range(self.__size):
             
             for x in range(self.__size):
