@@ -1,8 +1,11 @@
 #!/usr/bin/python3
-"""Define the Node Class ."""
+
+"""Define the class of Node of  linked list ."""
 
 
 class Node:
+    """this class contain the data and adress of the next node"""
+
     def __init__(self, data, next_node=None):
         """
         The node class accepte 2 args:
