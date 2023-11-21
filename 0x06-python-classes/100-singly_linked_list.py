@@ -38,6 +38,8 @@ class Node:
 
 
 """def of sinlgy linked list """
+
+
 class SinglyLinkedList:
     """this a def of SinglyLinkedList Class"""
 
