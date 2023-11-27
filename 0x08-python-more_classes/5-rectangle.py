@@ -1,16 +1,16 @@
 #!/usr/bin/python3
 """
-Create a rect class
+Create a rectangle class
 """
 
 
-class rectangle:
+class Rectangle:
     """
-    The class rect
+    The class rectangle
     """
 
     def __init__(self, width=0, height=0):
-        """ Initialize rects """
+        """ Initialize rectangles """
         self.width = width
         self.height = height
 
@@ -61,14 +61,14 @@ class rectangle:
     def area(self):
         """
         The area getter
-        Returns the area of rect
+        Returns the area of rectangle
         """
         return (self.__height * self.__width)
 
     def perimeter(self):
         """
         The perimeter getter
-        Returns the perimeter of rect, if width or height is equals
+        Returns the perimeter of rectangle, if width or height is equals
         0 returns 0
         """
         if (self.__width == 0 or self.__height == 0):
@@ -78,7 +78,7 @@ class rectangle:
 
     def __str__(self):
         """
-        The rect as string with # symbol
+        The rectangle as string with # symbol
         Returns the rectange as string with symbols #
         """
         result = ""
@@ -98,12 +98,12 @@ class rectangle:
             string represenation of the object
         """
 
-        return "rect({:d}, {:d})".format(self.width, self.height)
+        return "Rectangle({:d}, {:d})".format(self.width, self.height)
 
     def __del__(self):
         """
         Prints a message
         This function called when object is deleted,
-        and prints 'Bye rect...'
+        and prints 'Bye rectangle...'
         """
         print("Bye rectangle...")
