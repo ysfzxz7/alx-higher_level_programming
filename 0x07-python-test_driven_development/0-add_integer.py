@@ -1,21 +1,30 @@
 #!/usr/bin/python3
 
+"""Addition function, that adds two numbers and returns the result"""
+
+
 def add_integer(a, b=98):
-    """this add_integer func add two int together and return the sum
-
-    Args:
-        a (_int or float_): _the first number_
-        b (int or float, optional): _the second number_. Defaults to 98.
-
-    Raises:
-        TypeError: _description_
-        TypeError: _description_
-
-    Returns:
-        _type_: _description_
     """
-    if (type(a) != int) or (type(a) != float):
+        This function adds two numbers, and resturns the result,
+        but first it checks the type of paramters if integers or foloats
+        othwerwise it raises an Error of Type 'TypeError'.
+
+        >>> add_integer(15, 5)
+        20
+        >>> add_integer('a', 5)
+        TypeError: a must be an integer
+        >>> add_integer(10.5, 12)
+        22
+
+        Args:
+            a (int or float): this is first number.
+            b (int or float): this is second number.
+
+        Return:
+            returns the summation of these two numbers.
+    """
+    if not a or (type(a) != int and type(a) != float):
         raise TypeError("a must be an integer")
-    if (type(b) != int or type(b) != float):
-        raise TypeError("b must be an integer") 
-    return (a + b)
+    if (type(b) != int and type(b) != float):
+        raise TypeError("b must be an integer")
+    return (int(a) + int(b))
