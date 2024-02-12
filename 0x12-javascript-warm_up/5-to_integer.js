@@ -1,5 +1,5 @@
 #!/usr/bin/node
 
-const arg1 = process.argv[2];
+const arg1 = Number(process.argv[2]);
 
-console.log(+arg1 || 'Not a number');
+console.log(arg1 || 'Not a number');
