@@ -2,4 +2,4 @@
 
 const arg1 = Math.floor(Number(process.argv[2]));
 
-console.log(arg1 || 'Not a number');
+console.log('My number: ' + arg1 || 'Not a number');
