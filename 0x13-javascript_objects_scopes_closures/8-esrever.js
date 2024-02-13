@@ -2,8 +2,8 @@
 
 // this func to reverse a function
 exports.esrever = function (list) {
-  if (!list) return (0)
-  let reversed = [];
+  if (!list) return (0);
+  const reversed = [];
   for (let i = 0; i < list.length; i++) reversed.unshift(list[i]);
-  return (reversed)
-} 
+  return (reversed);
+};
