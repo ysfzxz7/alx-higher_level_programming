@@ -16,6 +16,6 @@ class State(Base):
     id (sqlalchemy.Integer): The state's id.
     name (sqlalchemy.String): The state's name.
     """
-    __tablename__ = 'states'
-    id = Column(Integer, primary_Key=True)
+    __tablename__ = "states"
+    id = Column(Integer, primary_key=True)
     name = Colmun(String(128), nullable=False)
