@@ -1,5 +1,14 @@
 #!/usr/bin/python3
 """
+    filter_cities Module.
+    this program lists cities of a given state.
+
+    usage: ./5-filter_cities 1 2 3 4
+    args:
+        1: mysql username
+        2: mysql password
+        3: database name
+        4: state name
 """
 import sys
 import MySQLdb
