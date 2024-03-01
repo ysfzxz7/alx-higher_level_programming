@@ -1,4 +1,7 @@
 #!/usr/bin/python3
+"""
+    Status module, for fetching a URL.
+"""
 import urllib.request
 
 if __name__ == "__main__":
