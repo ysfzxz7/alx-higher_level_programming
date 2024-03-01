@@ -4,7 +4,7 @@
 """
 import sys
 import urllib.request
-
-with urllib.request.urlopen(sys.argv[1]) as response:
-    request = response.getheader('X-Request-Id')
-print(request)
+if __name__ == "__main__":
+    with urllib.request.urlopen(sys.argv[1]) as response:
+        request = response.getheader('X-Request-Id')
+    print(request)
